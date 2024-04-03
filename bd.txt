@@ -1,0 +1,2 @@
+CERATE DATABASE flaskDB;
+CREATE TABLE `flask_login`.`login` ( `id` SMALLINT(3) NOT NULL AUTO_INCREMENT , `username` VARCHAR(20) NOT NULL , `password` CHAR(102) NOT NULL , `fullname` VARCHAR(50) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 

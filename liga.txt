@@ -1,0 +1,12 @@
+comandos:
+instalar entorno virtual
+	pip install virtualenv
+
+crear directorio virtual
+	virtualenv -p python env
+	
+activar
+	source .\env\Scripts\activate
+
+instalacion dependencias
+	pip install flask flask-login flask-mysqldb flask-WTF
